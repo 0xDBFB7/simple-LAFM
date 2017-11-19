@@ -35,3 +35,7 @@ I put a piece of plastic on the bed, and put a thick scratch in it.
 A "surface" of sorts was created, with many small bumps. Interestingly, the surface always sloped upwards. Some thermal effect? Strange.
 
 After greatly increasing laser power (2.3v, 0.008a), the CDS readings became much more stable.
+
+Added a calibration routine that raises the probe every row and zeros out any drift. 
+
+Put Adafruit's pcb ruler under the probe, set a 0.01 mm scan pattern. I could distinctly see the lands of a bga package - only 30 microns high!

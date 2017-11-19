@@ -5,7 +5,9 @@ I'm not entirely sure why I made this thing. I don't really have much of a use f
 
 This is a very, very simple, very crude Laser Atomic Force Microscope. It costs about $10 to build, though it does require a precision voltmeter (something that can give you at least three decimal places). Something with a 10-bit ADC would work. I used a GW-Instek GDM-8251A bench multimeter, which gives me 5 sig figs.
 
-This is *not* a high-resolution, precision instrument. This is something I designed and built in <3 hours. It's very rough around the edges (ha). I'm chuffed to bits that the thing even works at all, really. The X and Y resolution is limited to the resolution of whatever X-Y gantry you're using. The output drifts over time, creating an angled surface. 
+This is *not* a high-resolution, precision instrument. This is something I designed and built in <3 hours. It's very rough around the edges (ha). I'm chuffed to bits that the thing even works at all, really. The X and Y resolution is limited to the resolution of whatever X-Y gantry you're using.
+
+However, it can pretty easily measure vertical deflections of around *5 microns*. With some basic improvements (a longer optical barrel, better sensor, etc), I think one could do sub micron measurements quite easily.
 
 First, print out the afm.stl file with a 3d printer. It looks like it won't work, but actually it's quite printable.
 
