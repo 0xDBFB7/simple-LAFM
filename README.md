@@ -1,4 +1,4 @@
-![](/figure-5.png)
+![](/figure_5.png)
 ![](/scratch.jpg)
 
 I'm not entirely sure why I made this thing. I don't really have much of a use for it.
