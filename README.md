@@ -1,5 +1,5 @@
-![](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-![](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![](https://raw.githubusercontent.com/BasedOnTechnology/simple-LAFM/figure-5.png)
+![](https://raw.githubusercontent.com/BasedOnTechnology/simple-LAFM/scratch.jpg)
 
 I'm not entirely sure why I made this thing. I don't really have much of a use for it.
 
@@ -11,16 +11,21 @@ First, print out the afm.stl file with a 3d printer. It looks like it won't work
 
 You'll need a 5mw laser diode, and a constant voltage source for it. I ran mine at 2.3v, drawing 0.008 amps. Push the laser into the optical path like so:
 
-![Like so.](https://raw.githubusercontent.com/username/projectname/laser.png)
+![Like so.](https://raw.githubusercontent.com/BasedOnTechnology/simple-LAFM/laser.jpg)
 
 *WARNING* Lasers are dangerous. Be extremely careful with reflections. 
 
+I dropped a CDS cell through the long optical barrel, and glued it in place. I made a voltage divider in order to sample a bit faster - in resistance mode my meter samples rather slowly.
+
 Cut out a piece of standard aluminum foil in this shape:
 
-![Like so.](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Like so.](https://raw.githubusercontent.com/BasedOnTechnology/simple-LAFM/probe.png)
 
 The bottom hole takes a ~10mm long 4-40 screw and washer - this affixes one end of the cantilever probe ridgidly. Ensure that the cantilever isn't touching any part of the optical enclosure.
 
+Mount the whole thing on an X-Y-Z table/gantry/CNC machine. Atomic.py is designed to interface with RepRap 3d printers, producing a raster scan pattern. It's currently set up to interface with my multimeter, but naturally you'll have to modify that.
+
+To take a scan, I played around with the probe a bit until I found the minimum CDS resistance. I then brought the Z down until I got the slightest perceptable change in value. I then set this value in atomic.py, and ran a test.
 
 
 
