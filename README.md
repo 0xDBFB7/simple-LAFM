@@ -3,7 +3,7 @@
 
 I'm not entirely sure why I made this thing. I don't really have much of a use for it.
 
-This is a very, very simple, very crude Laser Atomic Force Microscope. It costs about $10 to build, though it does require a precision voltmeter (something that can give you at least three decimal places). Something with a 10-bit ADC would work. I used a GW-Instek GDM-8251A bench multimeter, which gives me 5 sig figs.
+This is a very, very simple, very crude Laser Atomic Force Microscope. Sort of. In some ways it's more of a touch probe, I guess. It costs about $10 to build, though it does require a precision voltmeter (something that can give you at least three decimal places). Something with a 10-bit ADC would work. I used a GW-Instek GDM-8251A bench multimeter, which gives me 5 sig figs.
 
 This is *not* a high-resolution, precision instrument. This is something I designed and built in <3 hours. It's very rough around the edges (ha). I'm chuffed to bits that the thing even works at all, really. The X and Y resolution is limited to the resolution of whatever X-Y gantry you're using.
 
